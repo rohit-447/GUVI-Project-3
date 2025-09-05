@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Guvi/New%20folder/mern-auth-client/app/page.tsx"],"sourcesContent":["\"use client\";\nimport { useEffect, useState } from \"react\";\nimport api from \"../lib/api\";\nimport EventCard from \"../components/EventCard\";\n\nexport default function Home() {\n  const [events, setEvents] = useState<any[]>([]);\n\n  useEffect(() => {\n    api.get(\"/events\").then(res => setEvents(res.data));\n  }, []);\n\n  return (\n    <div className=\"p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6\">\n      {events.map(event => (\n        <EventCard key={event._id} event={event} />\n      ))}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;;;;;;;;;AADA;;;;;AAKe,SAAS;IACtB,MAAM,CAAC,QAAQ,UAAU,GAAG,IAAA,iNAAQ,EAAQ,EAAE;IAE9C,IAAA,kNAAS,EAAC;QACR,IAAI,GAAG,CAAC,WAAW,IAAI,CAAC,CAAA,MAAO,UAAU,IAAI,IAAI;IACnD,GAAG,EAAE;IAEL,qBACE,8OAAC;QAAI,WAAU;kBACZ,OAAO,GAAG,CAAC,CAAA,sBACV,8OAAC;gBAA0B,OAAO;eAAlB,MAAM,GAAG;;;;;;;;;;AAIjC","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Guvi/New%20folder/mern-auth-client/app/dashboard/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useAuth } from \"../../context/AuthContext\";\r\n\r\nexport default function DashboardPage() {\r\n  const { user } = useAuth();\r\n\r\n  return (\r\n    <div>\r\n      <h1>Dashboard</h1>\r\n      {user ? (\r\n        <div>\r\n          <p>Name: {user.name}</p>\r\n          <p>Email: {user.email}</p>\r\n          <p>Phone: {user.phone}</p>\r\n          <p>Address: {user.address}</p>\r\n        </div>\r\n      ) : (\r\n        <p>Please log in.</p>\r\n      )}\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,MAAM,EAAE,IAAI,EAAE,GAAG,IAAA,kIAAO;IAExB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;YACH,qBACC,8OAAC;;kCACC,8OAAC;;4BAAE;4BAAO,KAAK,IAAI;;;;;;;kCACnB,8OAAC;;4BAAE;4BAAQ,KAAK,KAAK;;;;;;;kCACrB,8OAAC;;4BAAE;4BAAQ,KAAK,KAAK;;;;;;;kCACrB,8OAAC;;4BAAE;4BAAU,KAAK,OAAO;;;;;;;;;;;;qCAG3B,8OAAC;0BAAE;;;;;;;;;;;;AAIX","debugId":null}}]
+}

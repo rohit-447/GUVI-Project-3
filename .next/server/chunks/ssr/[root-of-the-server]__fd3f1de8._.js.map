@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///D:/Guvi/New%20folder/mern-auth-client/app/register/page.tsx"],"sourcesContent":["import LoginForm from \"/../components/RegisterForm.ts\";\r\n\r\nexport default function LoginPage() {\r\n  return (\r\n    <div>\r\n      <h1>Login</h1>\r\n      <LoginForm />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;;;;;;;;;;AAGP","debugId":null}}]
+}
