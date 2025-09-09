@@ -19,7 +19,7 @@ connectDB();
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://10.22.7.56:3000"], // Your frontend URL
+    origin: ["http://localhost:3000", "http://10.22.7.56:3000", "https://guvi-project-3.vercel.app"], // Your frontend URL
     credentials: true,
   })
 );
