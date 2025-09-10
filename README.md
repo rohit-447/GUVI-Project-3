@@ -10,19 +10,18 @@ Built with the **MERN stack (MongoDB, Express, React, Node.js)**, this project c
 ## Table of Contents  
 
 - [Features](#Features)  
-- [Tech Stack](#-tech-stack)  
-- [Project Structure](#-project-structure)  
-- [Installation](#-installation)  
-- [Environment Variables](#-environment-variables)  
-- [Usage](#-usage)  
-- [API Endpoints](#-api-endpoints)  
-- [Database Schema](#-database-schema)  
-- [Available Scripts](#-available-scripts)  
-- [Deployment on Vercel](#-deployment-on-vercel)  
-- [Future Enhancements](#-future-enhancements)  
-- [Contributing](#-contributing)  
-- [License](#-license)  
-
+- [Tech Stack](#Tech Stack)  
+- [Project Structure](#Project Structure)  
+- [Installation](#Installation)  
+- [Environment Variables](#Environment Variables)  
+- [Usage](#Usage)  
+- [API Endpoints](#API Endpoints)  
+- [Database Schema](#Database Schema)  
+- [Available Scripts](#Available Scripts)  
+- [Deployment on Vercel](#Deployment on Vercel)  
+- [Future Enhancements](#Future Enhancements)  
+- [Contributing](#Contributing)  
+- [License](#License) 
 ---
 
 ##  Features
@@ -42,8 +41,8 @@ Built with the **MERN stack (MongoDB, Express, React, Node.js)**, this project c
 - Validate tickets via QR code scanning  
 
 ###  Extra Features  
-- Email confirmations *(optional)*  
-- Payment gateway integration *(Stripe/PayPal)*  
+- Email confirmations   
+- Payment gateway integration *(Stripe/Rozerpay)*  
 - Role-based authentication (admin, organizer, user)  
 - Tailwind CSS for modern responsive UI  
 
@@ -67,7 +66,7 @@ Built with the **MERN stack (MongoDB, Express, React, Node.js)**, this project c
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 
 ```
 event-booking-platform/
@@ -80,7 +79,8 @@ event-booking-platform/
 │   │   ├── lib/            # Utility functions
 │   │   ├── pages/          # Pages (Login, Register, Events, Tickets, Dashboard)
 │   │   ├── utils/          # Helpers (formatters, token manager)
-│   │   └── App.js, index.js
+│   │   └── App.js, index.js (etc.)
+│   ├── .env                # Environment Variables
 │   └── tailwind.config.js
 │
 │── backend/                # Express server
@@ -93,6 +93,7 @@ event-booking-platform/
 │   │   ├── utils/          # Utilities
 │   │   ├── app.js          # Express app
 │   │   └── server.js       # Entry point
+│   ├── .env                # Environment Variables
 │   └── package.json
 │
 │── README.md
@@ -106,8 +107,7 @@ event-booking-platform/
 
 ### 1️. Clone the repository  
 ```bash
-git clone https://github.com/your-username/event-booking-platform.git
-cd event-booking-platform
+git clone https://github.com/rohit-447/GUVI-Project-3.git
 ```
 
 ### 2️. Install dependencies  
@@ -246,7 +246,7 @@ Ticket numbers are generated automatically in the format:
 
 ---
 
-## ☁️ Deployment on Vercel  
+##  Deployment on Vercel  
 
 ### Frontend (React)  
 1. Push code to GitHub.  
