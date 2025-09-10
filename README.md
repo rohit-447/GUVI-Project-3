@@ -10,18 +10,18 @@ Built with the **MERN stack (MongoDB, Express, React, Node.js)**, this project c
 ## Table of Contents  
 
 - [Features](#Features)  
-- [Tech Stack](#Tech Stack)  
-- [Project Structure](#Project Structure)  
+- [Tech Stack](#Tech-Stack)  
+- [Project Structure](#Project-Structure)  
 - [Installation](#Installation)  
-- [Environment Variables](#Environment Variables)  
+- [Environment Variables](#Environment-Variables)  
 - [Usage](#Usage)  
-- [API Endpoints](#API Endpoints)  
-- [Database Schema](#Database Schema)  
-- [Available Scripts](#Available Scripts)  
-- [Deployment on Vercel](#Deployment on Vercel)  
-- [Future Enhancements](#Future Enhancements)  
+- [API Endpoints](#API-Endpoints)  
+- [Database Schema](#Database-Schema)  
+- [Available Scripts](#Available-Scripts)  
+- [Deployment on Vercel](#Deployment-on-Vercel)  
+- [Future Enhancements](#Future-Enhancements)  
 - [Contributing](#Contributing)  
-- [License](#License) 
+- [License](#License)
 ---
 
 ##  Features
